@@ -56,8 +56,8 @@ export default function Home() {
   }
 
   return (
-    <div className="flex justify-center items-center h-screen bg-[#1C1C1C]">
-      <div className="bg-[#232323] rounded-lg flex flex-col w-4/5 shadow-lg border border-zinc-600">
+    <div className="flex justify-center items-center h-screen animatedGradient">
+      <div className="bg-[#2323233a] rounded-lg flex flex-col w-4/5 shadow-lg border border-zinc-600">
         <LandingPageNav />
         <div className="border-t border-zinc-600 flex flex-1 p-6">
           <div className="flex-1 mr-4">
@@ -105,7 +105,7 @@ export default function Home() {
           </div>
           <div className="flex-1 mr-4">
             <div className="w-[350px] mx-auto">
-              <h1 className="text-2xl font-bold text-white">
+              <h1 className="text-xl font-bold text-white">
                 Home Page Content
               </h1>
             </div>
